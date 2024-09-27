@@ -1,0 +1,20 @@
+.div--link {
+    display: flex;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.ul--link li:not(:last-child) .div--link {
+    border-bottom: 1px solid var(--color-darkGray);
+}
+
+.div--link img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.div--link div p {
+    padding: 2px;
+}

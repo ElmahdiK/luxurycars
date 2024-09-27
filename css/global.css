@@ -1,0 +1,156 @@
+:root {
+    --color-white: #fff;
+    --color-gray: #f4f4f4;
+    --color-darkGray: #e5e5e5;
+    --color-darkGrey: #999;
+}
+
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--color-gray);
+    font-family: helvetica;
+}
+
+img {
+    height: 120px;
+}
+
+/* ----- main ----- */
+main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main aside {
+    flex: 1;
+    padding: 20px;
+}
+
+main section {
+    flex: 2;
+}
+/* ----- div--topcard ----- */
+
+/* https://stackoverflow.com/questions/7433454/html-css-hexagon-with-image-inside */
+.hexagone {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    height: 60px;
+}
+
+.div--topcard {
+    margin: 10px;
+}
+
+.div--topcard p {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+.div--topcard .p--title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.div--card-title {
+    display: flex;
+    padding: 20px;
+}
+
+.div--card-title p {
+    font-size: 14px;
+}
+
+.div--p-title {
+    font-weight: bold;
+}
+
+.div--card-title div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.div--card-title img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.ul--link {
+    border-top: 1px solid var(--color-darkGray);
+    border-bottom: 1px solid var(--color-darkGray);
+    list-style: none;
+}
+
+.div--p-link-title {
+    font-weight: bold;
+}
+
+.div--about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--color-darkGray);
+}
+
+.div--about button {
+    background-color: transparent;
+    border: 1px solid var(--color-darkGrey);
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+}
+
+.p--about-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav--social {
+    margin: 20px;
+
+}
+
+.nav--social a {
+    color: var(--color-darkGrey);
+    padding: 4px;
+}
+
+.p--footer {
+    margin: 20px;
+    font-size: 10px;
+}
+
+.nav--footer button:first-child {
+    color: var(--color-darkGray);
+}
+
+.nav--footer button {
+    background-color: transparent;
+    border: 1px solid var(--color-darkGrey);
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}

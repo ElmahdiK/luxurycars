@@ -1,0 +1,50 @@
+/* ----- header ----- */
+header {
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-darkGray);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+header div p {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 14px;
+    border-right: 1px solid var(--color-darkGray);
+}
+
+header div nav {
+    display: flex;
+}
+
+header div nav a {
+    color: var(--color-darkGrey);
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header>nav {
+    display: flex;
+    align-items: center;
+}
+
+header>nav button {
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-darkGrey);
+    border-left: 1px solid var(--color-darkGray);
+    padding: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+header div nav a:not(:first-child) {
+    border-left: 1px solid var(--color-darkGray);
+}

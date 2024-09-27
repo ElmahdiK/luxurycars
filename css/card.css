@@ -1,0 +1,10 @@
+.div--card {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-darkGray);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.div--card img {
+    object-fit: cover;
+}
