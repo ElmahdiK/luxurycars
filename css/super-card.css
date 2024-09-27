@@ -10,7 +10,7 @@ main section .div--super-card {
 }
 
 .div--super-card-header>div {
-    padding: 20px;
+    padding: 40px;
 }
 
 .div--super-card-header div:nth-child(1) {
@@ -22,13 +22,25 @@ main section .div--super-card {
 }
 
 .div--super-card-header div:nth-child(1) p:nth-child(1) {
+    color: #3c3b3b;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
     font-weight: bold;
+    text-transform: uppercase;
+}
+
+.div--super-card-header div:nth-child(1) p:nth-child(2) {
+    color: #989898;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .div--super-card-header div:nth-child(2) div {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .div--super-card-header div:nth-child(2) div img {
@@ -39,30 +51,40 @@ main section .div--super-card {
 }
 
 .div--super-card-header div:nth-child(2)>p:nth-child(1) {
+    color: #3c3b3b;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .div--super-card-header div:nth-child(2) a {
     color: var(--color-darkGrey);
     border-bottom: 1px dashed var(--color-darkGrey);
+    font-size: 10px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .div--super-card-content img {
-    width: calc(100% - 40px);
+    width: calc(100% - 80px);
     height: 200px;
-    padding: 20px;
+    padding: 40px;
     object-fit: cover;
 }
 
 .div--super-card-content p {
-    padding: 0px 20px;
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px 40px;
 }
 
 .div--super-card-footer {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .div--super-card-footer ul {
@@ -72,23 +94,31 @@ main section .div--super-card {
 }
 
 .div--super-card-footer ul li {
+    color: var(--color-darkGrey);
     padding: 10px;
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.div--super-card-footer ul li:not(:first-child) {
+    border-left: 1px solid var(--color-darkGray);
 }
 
 .div--super-card-footer ul li a {
-    color: var(--color-darkGrey);
+    color: inherit;
+    border-bottom: 1px dotted var(--color-darkGrey);
+    font-size: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    border-bottom: 1px dashed var(--color-darkGrey);
 }
 
 .div--super-card-footer button {
     background-color: transparent;
-    border: 1px solid var(--color-darkGrey);
+    border: 1px solid var(--color-darkGray);
+    color: #4b4a4a;
+    font-size: 10px;
     padding: 20px;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 0.5px;
     cursor: pointer;
 }
