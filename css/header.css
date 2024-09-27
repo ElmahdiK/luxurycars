@@ -13,10 +13,11 @@ header div {
 }
 
 header div p {
-    font-weight: bold;
-    padding: 20px;
-    font-size: 14px;
+    color: #3c3b3b;
     border-right: 1px solid var(--color-darkGray);
+    padding: 20px 40px;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 header div nav {
@@ -26,7 +27,8 @@ header div nav {
 header div nav a {
     color: var(--color-darkGrey);
     padding: 10px;
-    font-size: 12px;
+    font-size: 10px;
+    letter-spacing: 1px;
     text-decoration: none;
 }
 
