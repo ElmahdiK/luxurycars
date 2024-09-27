@@ -1,0 +1,8 @@
+.nav--social {
+    margin: 50px 20px;
+}
+
+.nav--social a {
+    color: var(--color-darkGrey);
+    padding: 4px;
+}

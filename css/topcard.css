@@ -1,0 +1,25 @@
+
+/* ----- div--topcard ----- */
+
+/* https://stackoverflow.com/questions/7433454/html-css-hexagon-with-image-inside */
+.hexagone {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    height: 60px;
+}
+
+.div--topcard {
+    margin: 10px;
+}
+
+.div--topcard p {
+    color: #3c3b3b;
+    font-size: 12px;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.div--topcard .p--title {
+    font-size: 30px;
+    font-weight: bold;
+}

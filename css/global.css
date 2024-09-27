@@ -30,7 +30,7 @@ main {
     display: flex;
     width: 80%;
     margin: 0 auto;
-    padding: 20px;
+    margin-top: 80px;
 }
 
 main aside {
@@ -41,28 +41,6 @@ main aside {
 main section {
     flex: 2;
 }
-/* ----- div--topcard ----- */
-
-/* https://stackoverflow.com/questions/7433454/html-css-hexagon-with-image-inside */
-.hexagone {
-    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
-    height: 60px;
-}
-
-.div--topcard {
-    margin: 10px;
-}
-
-.div--topcard p {
-    font-size: 14px;
-    text-transform: uppercase;
-    padding: 10px 0px;
-}
-
-.div--topcard .p--title {
-    font-size: 30px;
-    font-weight: bold;
-}
 
 .div--card-title {
     display: flex;
@@ -70,10 +48,16 @@ main section {
 }
 
 .div--card-title p {
-    font-size: 14px;
+    color: #989898;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .div--p-title {
+    color: #3c3b3b !important;
+    font-size: 14px;
+    margin-bottom: 10px;
     font-weight: bold;
 }
 
@@ -98,59 +82,4 @@ main section {
 
 .div--p-link-title {
     font-weight: bold;
-}
-
-.div--about {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    margin: 20px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid var(--color-darkGray);
-}
-
-.div--about button {
-    background-color: transparent;
-    border: 1px solid var(--color-darkGrey);
-    padding: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-
-    cursor: pointer;
-}
-
-.p--about-title {
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.nav--social {
-    margin: 20px;
-
-}
-
-.nav--social a {
-    color: var(--color-darkGrey);
-    padding: 4px;
-}
-
-.p--footer {
-    margin: 20px;
-    font-size: 10px;
-}
-
-.nav--footer button:first-child {
-    color: var(--color-darkGray);
-}
-
-.nav--footer button {
-    background-color: transparent;
-    border: 1px solid var(--color-darkGrey);
-    padding: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    cursor: pointer;
 }
