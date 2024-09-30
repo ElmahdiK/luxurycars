@@ -10,9 +10,10 @@ header {
 header div {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex: 1;
 }
-
-header div p {
+header p {
     color: #3c3b3b;
     border-right: 1px solid var(--color-darkGray);
     padding: 20px 40px;
@@ -20,11 +21,12 @@ header div p {
     letter-spacing: 1px;
 }
 
-header div nav {
+header nav {
     display: flex;
+    align-items: center;
 }
 
-header div nav a {
+header nav a {
     color: var(--color-darkGrey);
     padding: 10px;
     font-size: 10px;
@@ -32,12 +34,7 @@ header div nav a {
     text-decoration: none;
 }
 
-header>nav {
-    display: flex;
-    align-items: center;
-}
-
-header>nav button {
+header nav button {
     cursor: pointer;
     background-color: transparent;
     color: var(--color-darkGrey);
