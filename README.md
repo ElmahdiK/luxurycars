@@ -3,7 +3,7 @@
 </p>
 
 # luxurycars
-L'objectif de ce projet est de reproduire une maquette (png ci-dessous) au format HTML/CSS
+L'objectif de ce projet est de reproduire une maquette (png ci-dessous) personnalisée (images/textes au choix) au format HTML/CSS
 
 ### maquette 
 https://elmahdik.github.io/luxurycars/assets/img/maquette.png
