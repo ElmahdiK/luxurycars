@@ -3,17 +3,19 @@
 </p>
 
 # luxurycars
-L'objectif de ce projet est de reproduire une maquette (png ci-dessous) personnalisée (images/textes au choix) au format HTML/CSS
+Objectif : Reproduire une maquette (maquette initiale png ci-dessous) personnalisée (images/textes au choix) au format HTML/CSS
 
-### maquette 
+### accès à la demo 
+https://elmahdik.github.io/luxurycars
+
+### maquette initiale
 https://elmahdik.github.io/luxurycars/assets/img/maquette.png
 
-
-
+### ressources
 Concernant les images/icons j'ai utilisé les ressources suivantes : 
 
-### images
+## images
 https://unsplash.com/
 
-### icons
+## icons
 https://icons.getbootstrap.com/
