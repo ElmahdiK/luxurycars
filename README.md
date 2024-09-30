@@ -3,19 +3,16 @@
 </p>
 
 # luxurycars
-Objectif : Reproduire une maquette (maquette initiale png ci-dessous) personnalisée (images/textes au choix) au format HTML/CSS
+Objectif : Reproduire ![cette maquette](https://elmahdik.github.io/luxurycars/assets/img/maquette.png) au format HTML/CSS (images et textes au choix) 
 
-### accès à la demo 
+## lien d'accès à la demo 
 https://elmahdik.github.io/luxurycars
 
-### maquette initiale
-https://elmahdik.github.io/luxurycars/assets/img/maquette.png
-
-### ressources
+## ressources
 Concernant les images/icons j'ai utilisé les ressources suivantes : 
 
-## images
+### images
 https://unsplash.com/
 
-## icons
+### icons
 https://icons.getbootstrap.com/
