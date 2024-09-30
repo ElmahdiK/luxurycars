@@ -3,9 +3,12 @@
 </p>
 
 # luxurycars
-Objectif : Reproduire ![cette maquette](https://elmahdik.github.io/luxurycars/assets/img/maquette.png) au format HTML/CSS (images et textes au choix) 
+Objectif : Reproduire la maquette ci-dessous au format HTML/CSS (avec images et textes au choix) 
 
-## lien d'accès à la demo 
+## maquette initiale
+https://elmahdik.github.io/luxurycars/assets/img/maquette.png
+
+## accès à la demo 
 https://elmahdik.github.io/luxurycars
 
 ## ressources
